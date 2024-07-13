@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Shared Style */
+body{
+    font-family: "Lato", sans-serif;
+}
+.btn-primary{
+    padding: 15px 40px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#fff;
+    background-color: #E55473;
+}
+section{
+    margin-bottom: 128px;
+}
+
+/* Start Header Section Design */
+.header-container{
+    width: 1920px;
+    height: 850px;
+    background-color: #e5547329;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    width: 708px;
+}
+.header-content h1{
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+.header-content p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    color:rgba(0, 0, 0, 0.72);
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.header-image{
+    width: 635px;
+    margin-top: 50px;
+}
+.header-image img{
+    width: 100%;
+    margin-left: 150px;
+}
+/* End of Header Area Design */
+
+/* Star Featuerd Area Design */
+.featured-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.featured-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.featured-content p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;    
+    font-weight: 350;
+}
+.featured-flower{
+    width: 1440px;
+    height: 605px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.featured-flower-content{
+    width: 464px;
+    height: 538px;
+    background-color: #a721621e;
+    border-radius: 250px 250px 0 0;
+    position: relative;
+}
+.featued-image{
+    width: 310px;
+    height: 428px;
+    position: absolute;
+}
+.featued-image img{
+    width: 95%;
+    display: block;
+    position: relative;
+    top: 31%;
+    margin-right: auto;
+    margin-left: 90px;
+}
+.featued-image2 img{
+    width: 75%;
+    display: block;
+    position: absolute;
+    top: 25%;
+    margin-right: auto;
+    margin-left: 75px;
+}
+#image-bg-2{
+    background-color: #0598a027 !important;
+}
+.featued-image3 img{
+    width: 70%;
+    display: block;
+    position: absolute;
+    top: 9.5%;
+    margin-right: auto;
+    margin-left: 90px;
+}
+#image-bg-3{
+    background-color: #477d1122 !important;
+}
+.featured-flower-content h4{
+    display: block;
+    text-align: center;
+    margin-top: 570px;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+/* End of Featuerd Area Design */
+
